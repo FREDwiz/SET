@@ -117,6 +117,22 @@ int open_udp_socket(int *pong_port)
 		char port_number_as_str[6];
 		sprintf(port_number_as_str, "%d", port_number);
 /*** TO BE DONE START ***/
+/* TODO */
+
+	/* creating the socket */
+		if ((udp_socket = socket(AF_INET, SOCK_DGRAM, 0)) < 0) {
+			perror("cannot create socket\n");
+			return 0;
+		}
+
+	/* binding  the socket */
+		if (bind(udp_socket, (struct sockaddr *)&gai_hints, sizeof(gai_hints)) < 0) {
+			perror("bind failed");
+			return 0;
+		}
+
+	/*
+
 /*** TO BE DONE END ***/
 		if (errno != EADDRINUSE) 
 			fail_errno("UDP Pong could not bind the socket");
@@ -261,6 +277,7 @@ int main(int argc, char **argv)
 	gai_hints.ai_protocol = IPPROTO_TCP;
 
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
 	freeaddrinfo(server_addrinfo);

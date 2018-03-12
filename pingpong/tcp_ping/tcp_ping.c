@@ -37,14 +37,17 @@ double do_ping(size_t msg_size, int msg_no, char message[msg_size], int tcp_sock
 
     /*** write msg_no at the beginning of the message buffer ***/
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
     /*** Store the current time in send_time ***/
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
     /*** Send the message through the socket ***/
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
     /*** Receive answer through the socket (blocking) ***/
@@ -56,6 +59,7 @@ double do_ping(size_t msg_size, int msg_no, char message[msg_size], int tcp_sock
 
     /*** Store the current time in recv_time ***/
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
 	printf("tcp_ping received %zd bytes back\n", recv_bytes);
@@ -87,10 +91,12 @@ int main(int argc, char **argv)
 	memset(&gai_hints, 0, sizeof gai_hints);
 
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
     /*** call getaddrinfo() in order to get Pong Server address in binary form ***/
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
     /*** Print address of the Pong server before trying to connect ***/
@@ -99,6 +105,7 @@ int main(int argc, char **argv)
 
     /*** create a new TCP socket and connect it with the server ***/
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
 	freeaddrinfo(server_addrinfo);
@@ -113,6 +120,7 @@ int main(int argc, char **argv)
 
     /*** Write the request on socket ***/
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
 	nr = read(tcp_socket, answer, sizeof(answer));
@@ -122,6 +130,7 @@ int main(int argc, char **argv)
 
     /*** Check if the answer is OK, and fail if it is not ***/
 /*** TO BE DONE START ***/
+/* TODO */
 /*** TO BE DONE END ***/
 
     /*** else ***/

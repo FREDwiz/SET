@@ -30,6 +30,16 @@ double timespec_delta2milliseconds(struct timespec *last,
  ***/
 
 /*** TO BE DONE START ***/
+
+	/* gets the values */
+	double l = last->tv_sec;
+	double p = previous->tv_sec;
+
+	/* computes and converts to milliseconds */
+	double r = (l-p)*1000;
+
+	return r;
+
 /*** TO BE DONE END ***/
 
 }
@@ -89,6 +99,11 @@ void print_statistics(FILE * outf, const char *name, int repeats,
 	fprintf(outf, "RTT histogram:\n");
 
 /*** TO BE DONE START ***/
+/* TODO */
+
+
+
+
 /*** TO BE DONE END ***/
 
 	if (mean > 0.0)
