@@ -120,7 +120,7 @@ int open_udp_socket(int *pong_port)
 /* TODO */
 
 	/* creating the socket */
-		if ((udp_socket = socket(AF_INET, SOCK_DGRAM, 0)) < 0) {
+		if ((udp_socket = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) < 0) {
 			perror("cannot create socket\n");
 			return 0;
 		}
