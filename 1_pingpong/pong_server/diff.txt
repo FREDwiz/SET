@@ -1,0 +1,40 @@
+8c8
+<  * versione 5.1 
+---
+>  * versione 5.2 
+13c13
+<  * Genova, anno accademico 2016/2017.
+---
+>  * Genova, anno accademico 2017/2018.
+16a17
+>  * Copyright (C) 2017      by Giovanni Chiola <chiolag@acm.org>
+25,26d25
+< #include <sys/socket.h>
+< #include <sys/un.h>
+112d110
+< 	struct sockaddr_in myaddr;
+122,128c120,132
+< 		udp_socket = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
+< 		memset((char *)&myaddr, 0, sizeof(myaddr)); 
+< 		myaddr.sin_family = AF_INET; 
+< 		myaddr.sin_addr.s_addr = htonl(INADDR_ANY); 
+< 		myaddr.sin_port = htons(port_number); 
+< 		if (bind_rv = bind(udp_socket, (struct sockaddr *)&myaddr, sizeof(myaddr)) == 0);
+< 		{
+---
+> /* TODO */
+> 
+> 	/* creating the socket */
+> 		if ((udp_socket = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) < 0) {
+> 			perror("cannot create socket\n");
+> 			return 0;
+> 		}
+> 
+> 	/* binding  the socket */
+> 		if (bind(udp_socket, (struct sockaddr *)&gai_hints, sizeof(gai_hints)) < 0) {
+> 			perror("bind failed");
+> 			return 0;
+> 		}else{
+131a136,137
+> 	/*
+> 

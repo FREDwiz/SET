@@ -1,0 +1,19 @@
+USO DEGLI SCRIPT CREATI PER L'ESERCITAZIONE:
+
+Lanciare lo script Band-Latency.bash senza fornire alcun parametro, lo script genererà i grafici per il modello banda latenza per i protocolli TCP e UDP
+
+Lanciare lo script RTT.bash seguito da 4 paramentri numerici:
+
+_Il numero di byte minimo per il protocollo UDP
+
+_Il numero di byte massimo per il protocollo UDP
+
+_Il numero di byte minimo per il protocollo TCP
+
+_Il numero di byte massimo per il protocollo TCP
+
+Lo script genererà 4 file di output che verranno utilizzati per generare il grafico, ad ogni nuovo lancio dello script RTT tutti i file del precedente avvio verranno eliminati
+
+Esempio di lancio dello script RTT:
+
+> RTT.bash 16 16384 16 65536

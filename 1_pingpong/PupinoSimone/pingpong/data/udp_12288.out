@@ -1,0 +1,134 @@
+UDP Ping trying to connect to server webdev.dibris.unige.it (130.251.61.30) on TCP port 1491
+ ... connected to Pong server: asking for 101 repetitions of 12288 _bytes UDP messages
+ ... Pong server agreed to ping-pong using port 62831 :-)
+Round trip time was 59.104 milliseconds in repetition 1
+Round trip time was 54.988 milliseconds in repetition 2
+Round trip time was 60.869 milliseconds in repetition 3
+Round trip time was 58.142 milliseconds in repetition 4
+Round trip time was 57.458 milliseconds in repetition 5
+Round trip time was 57.407 milliseconds in repetition 6
+Round trip time was 55.891 milliseconds in repetition 7
+Round trip time was 57.936 milliseconds in repetition 8
+Round trip time was 56.271 milliseconds in repetition 9
+Round trip time was 54.984 milliseconds in repetition 10
+Round trip time was 54.723 milliseconds in repetition 11
+Round trip time was 54.462 milliseconds in repetition 12
+Round trip time was 55.981 milliseconds in repetition 13
+Round trip time was 62.556 milliseconds in repetition 14
+Round trip time was 55.960 milliseconds in repetition 15
+Round trip time was 55.824 milliseconds in repetition 16
+Round trip time was 57.962 milliseconds in repetition 17
+Round trip time was 55.460 milliseconds in repetition 18
+Round trip time was 57.789 milliseconds in repetition 19
+Round trip time was 53.439 milliseconds in repetition 20
+Round trip time was 52.118 milliseconds in repetition 21
+Round trip time was 52.072 milliseconds in repetition 22
+Round trip time was 66.081 milliseconds in repetition 23
+Round trip time was 50.733 milliseconds in repetition 24
+Round trip time was 56.574 milliseconds in repetition 25
+Round trip time was 55.807 milliseconds in repetition 26
+Round trip time was 54.316 milliseconds in repetition 27
+Round trip time was 51.550 milliseconds in repetition 28
+Round trip time was 51.465 milliseconds in repetition 29
+Round trip time was 55.386 milliseconds in repetition 30
+Round trip time was 54.797 milliseconds in repetition 31
+Round trip time was 51.780 milliseconds in repetition 32
+Round trip time was 56.363 milliseconds in repetition 33
+Round trip time was 51.740 milliseconds in repetition 34
+Round trip time was 53.283 milliseconds in repetition 35
+Round trip time was 53.342 milliseconds in repetition 36
+Round trip time was 54.546 milliseconds in repetition 37
+Round trip time was 51.784 milliseconds in repetition 38
+Round trip time was 53.889 milliseconds in repetition 39
+Round trip time was 54.244 milliseconds in repetition 40
+Round trip time was 51.963 milliseconds in repetition 41
+Round trip time was 51.501 milliseconds in repetition 42
+Round trip time was 54.397 milliseconds in repetition 43
+Round trip time was 56.589 milliseconds in repetition 44
+Round trip time was 53.290 milliseconds in repetition 45
+Round trip time was 55.555 milliseconds in repetition 46
+Round trip time was 52.073 milliseconds in repetition 47
+Round trip time was 56.648 milliseconds in repetition 48
+Round trip time was 54.223 milliseconds in repetition 49
+Round trip time was 55.695 milliseconds in repetition 50
+Round trip time was 52.098 milliseconds in repetition 51
+Round trip time was 51.934 milliseconds in repetition 52
+Round trip time was 54.251 milliseconds in repetition 53
+Round trip time was 52.793 milliseconds in repetition 54
+Round trip time was 52.688 milliseconds in repetition 55
+Round trip time was 62.291 milliseconds in repetition 56
+Round trip time was 52.930 milliseconds in repetition 57
+Round trip time was 52.879 milliseconds in repetition 58
+Round trip time was 53.935 milliseconds in repetition 59
+Round trip time was 55.232 milliseconds in repetition 60
+Round trip time was 52.131 milliseconds in repetition 61
+Round trip time was 52.033 milliseconds in repetition 62
+Round trip time was 53.646 milliseconds in repetition 63
+Round trip time was 55.189 milliseconds in repetition 64
+Round trip time was 51.924 milliseconds in repetition 65
+Round trip time was 54.845 milliseconds in repetition 66
+Round trip time was 58.805 milliseconds in repetition 67
+Round trip time was 62.262 milliseconds in repetition 68
+Round trip time was 66.887 milliseconds in repetition 69
+Round trip time was 56.726 milliseconds in repetition 70
+Round trip time was 52.809 milliseconds in repetition 71
+Round trip time was 53.776 milliseconds in repetition 72
+Round trip time was 57.997 milliseconds in repetition 73
+Round trip time was 52.957 milliseconds in repetition 74
+Round trip time was 56.286 milliseconds in repetition 75
+Round trip time was 54.108 milliseconds in repetition 76
+Round trip time was 52.799 milliseconds in repetition 77
+Round trip time was 55.092 milliseconds in repetition 78
+Round trip time was 56.202 milliseconds in repetition 79
+Round trip time was 52.302 milliseconds in repetition 80
+Round trip time was 54.936 milliseconds in repetition 81
+Round trip time was 56.756 milliseconds in repetition 82
+Round trip time was 53.628 milliseconds in repetition 83
+Round trip time was 53.596 milliseconds in repetition 84
+Round trip time was 51.997 milliseconds in repetition 85
+Round trip time was 61.783 milliseconds in repetition 86
+Round trip time was 52.216 milliseconds in repetition 87
+Round trip time was 57.862 milliseconds in repetition 88
+Round trip time was 53.622 milliseconds in repetition 89
+Round trip time was 51.508 milliseconds in repetition 90
+Round trip time was 50.509 milliseconds in repetition 91
+Round trip time was 52.948 milliseconds in repetition 92
+Round trip time was 52.306 milliseconds in repetition 93
+Round trip time was 55.011 milliseconds in repetition 94
+Round trip time was 53.371 milliseconds in repetition 95
+Round trip time was 54.508 milliseconds in repetition 96
+Round trip time was 53.860 milliseconds in repetition 97
+Round trip time was 51.813 milliseconds in repetition 98
+Round trip time was 52.168 milliseconds in repetition 99
+Round trip time was 52.348 milliseconds in repetition 100
+Round trip time was 57.782 milliseconds in repetition 101
+
+ ... clock resolution was 1e-06
+UDP Ping:  Statistics over 101 repetitions of 12288 byte messages
+
+RTT : percentile 10: 51.9239, median: 54.3159, percentile 90: 57.9971, average: 54.9044, variance: 9.571
+
+RTT histogram:
+51.327535 2
+52.146444 4
+52.965354 19
+53.784263 12
+54.603172 10
+55.422082 15
+56.240991 9
+57.059900 10
+57.878810 4
+58.697719 7
+59.516628 2
+60.335538 0
+61.154447 0
+61.973356 1
+62.792266 3
+63.611175 1
+64.430084 0
+65.248994 0
+66.067903 0
+66.886812 1
+67.705722 1
+median Throughput : 452.464 KB/s   overall Throughput : 447.615 KB/s
+

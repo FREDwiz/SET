@@ -118,19 +118,27 @@ int open_udp_socket(int *pong_port)
 		sprintf(port_number_as_str, "%d", port_number);
 /*** TO BE DONE START ***/
 /* TODO */
+		struct sockaddr_in myaddr;
 
 	/* creating the socket */
-		if ((udp_socket = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) < 0) {
+		if ((udp_socket = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) == -1) {
 			perror("cannot create socket\n");
 			return 0;
 		}
 
+		memset((char *)&myaddr, 0, sizeof(myaddr)); 
+		myaddr.sin_family = AF_INET; 
+		myaddr.sin_addr.s_addr = htonl(INADDR_ANY); 
+		myaddr.sin_port = htons(port_number); 
+
 	/* binding  the socket */
-		if (bind(udp_socket, (struct sockaddr *)&gai_hints, sizeof(gai_hints)) < 0) {
+		if (bind(udp_socket, (struct sockaddr *)&myaddr, sizeof(myaddr)) < 0) {
 			perror("bind failed");
 			return 0;
+		}else{
+			*pong_port = port_number;
+			return  udp_socket;
 		}
-
 	/*
 
 /*** TO BE DONE END ***/
@@ -277,7 +285,18 @@ int main(int argc, char **argv)
 	gai_hints.ai_protocol = IPPROTO_TCP;
 
 /*** TO BE DONE START ***/
-/* TODO */
+	if ((gai_rv = getaddrinfo(NULL, argv[1], &gai_hints, &server_addrinfo)) != 0) 
+        fail_errno("Failed getaddrinfo");
+    if ((server_socket = socket(server_addrinfo->ai_family, server_addrinfo->ai_socktype, server_addrinfo->ai_protocol)) == -1) 
+    	fail_errno("Error socket");
+    if (bind(server_socket, server_addrinfo->ai_addr, server_addrinfo->ai_addrlen) == -1) 
+	{
+        close(server_socket);
+        fail_errno("Error bind");
+    }
+    listen(server_socket, 10);
+    if (listen(server_socket, 10) == -1)
+        fail_errno("Error listen");
 /*** TO BE DONE END ***/
 
 	freeaddrinfo(server_addrinfo);
