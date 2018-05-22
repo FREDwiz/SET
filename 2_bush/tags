@@ -1,0 +1,489 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AST_H	ast.h	18;"	d
+BEGIN	autogen_lexer.c	143;"	d	file:
+CD	autogen_parser.c	/^    CD = 258,$/;"	e	enum:yytokentype	file:
+CD	autogen_parser.h	/^    CD = 258,$/;"	e	enum:yytokentype
+DIR_SEPARATOR	shell.h	36;"	d
+ECHO	autogen_lexer.c	734;"	d	file:
+EOB_ACT_CONTINUE_SCAN	autogen_lexer.c	187;"	d	file:
+EOB_ACT_END_OF_FILE	autogen_lexer.c	188;"	d	file:
+EOB_ACT_LAST_MATCH	autogen_lexer.c	189;"	d	file:
+EXIT_SUCCESS	autogen_parser.c	301;"	d	file:
+FLEXINT_H	autogen_lexer.c	30;"	d	file:
+FLEX_BETA	autogen_lexer.c	14;"	d	file:
+FLEX_SCANNER	autogen_lexer.c	9;"	d	file:
+HOME	shell.h	34;"	d
+IDENTIFIER	autogen_parser.c	/^    IDENTIFIER = 265,$/;"	e	enum:yytokentype	file:
+IDENTIFIER	autogen_parser.h	/^    IDENTIFIER = 265,$/;"	e	enum:yytokentype
+INITIAL	autogen_lexer.c	581;"	d	file:
+INT16_MAX	autogen_lexer.c	72;"	d	file:
+INT16_MIN	autogen_lexer.c	63;"	d	file:
+INT32_MAX	autogen_lexer.c	75;"	d	file:
+INT32_MIN	autogen_lexer.c	66;"	d	file:
+INT8_MAX	autogen_lexer.c	69;"	d	file:
+INT8_MIN	autogen_lexer.c	60;"	d	file:
+NAME	autogen_parser.c	/^    NAME = 266$/;"	e	enum:yytokentype	file:
+NAME	autogen_parser.h	/^    NAME = 266$/;"	e	enum:yytokentype
+NAME_TO_STRING	autogen_lexer.c	582;"	d	file:
+NA_CONTINUE	ast.h	/^	NA_CONTINUE$/;"	e	enum:next_action
+NA_QUIT	ast.h	/^	NA_QUIT,$/;"	e	enum:next_action
+NEWLINE	autogen_parser.c	/^    NEWLINE = 264,$/;"	e	enum:yytokentype	file:
+NEWLINE	autogen_parser.h	/^    NEWLINE = 264,$/;"	e	enum:yytokentype
+NO_REDIR	ast.h	29;"	d
+PATH	shell.h	32;"	d
+PATH_SEPARATOR	shell.h	35;"	d
+PWD	shell.h	33;"	d
+QUIT	autogen_parser.c	/^    QUIT = 259,$/;"	e	enum:yytokentype	file:
+QUIT	autogen_parser.h	/^    QUIT = 259,$/;"	e	enum:yytokentype
+REJECT	autogen_lexer.c	543;"	d	file:
+RESERVED_KEYWORD	autogen_parser.c	/^    RESERVED_KEYWORD = 263,$/;"	e	enum:yytokentype	file:
+RESERVED_KEYWORD	autogen_parser.h	/^    RESERVED_KEYWORD = 263,$/;"	e	enum:yytokentype
+SET	autogen_parser.c	/^    SET = 260,$/;"	e	enum:yytokentype	file:
+SET	autogen_parser.h	/^    SET = 260,$/;"	e	enum:yytokentype
+SHELL_H	shell.h	18;"	d
+SHOW_VARIABLES	autogen_parser.c	/^    SHOW_VARIABLES = 261,$/;"	e	enum:yytokentype	file:
+SHOW_VARIABLES	autogen_parser.h	/^    SHOW_VARIABLES = 261,$/;"	e	enum:yytokentype
+STR_H	str.h	18;"	d
+UINT16_MAX	autogen_lexer.c	81;"	d	file:
+UINT32_MAX	autogen_lexer.c	84;"	d	file:
+UINT8_MAX	autogen_lexer.c	78;"	d	file:
+UNCLOSED_STRING_LITERAL	autogen_parser.c	/^    UNCLOSED_STRING_LITERAL = 262,$/;"	e	enum:yytokentype	file:
+UNCLOSED_STRING_LITERAL	autogen_parser.h	/^    UNCLOSED_STRING_LITERAL = 262,$/;"	e	enum:yytokentype
+UTILS_H	utils.h	18;"	d
+VARIABLES_H	var_table.h	18;"	d
+YYABORT	autogen_parser.c	558;"	d	file:
+YYACCEPT	autogen_parser.c	557;"	d	file:
+YYBACKUP	autogen_parser.c	564;"	d	file:
+YYBISON	autogen_parser.c	44;"	d	file:
+YYBISON_VERSION	autogen_parser.c	47;"	d	file:
+YYCASE_	autogen_parser.c	1147;"	d	file:
+YYCASE_	autogen_parser.c	1157;"	d	file:
+YYCOPY	autogen_parser.c	366;"	d	file:
+YYCOPY	autogen_parser.c	369;"	d	file:
+YYCOPY_NEEDED	autogen_parser.c	317;"	d	file:
+YYCOPY_NEEDED	autogen_parser.c	341;"	d	file:
+YYDEBUG	autogen_parser.c	113;"	d	file:
+YYDEBUG	autogen_parser.h	37;"	d
+YYDPRINTF	autogen_parser.c	596;"	d	file:
+YYDPRINTF	autogen_parser.c	714;"	d	file:
+YYEMPTY	autogen_parser.c	554;"	d	file:
+YYEOF	autogen_parser.c	555;"	d	file:
+YYERRCODE	autogen_parser.c	584;"	d	file:
+YYERROR	autogen_parser.c	559;"	d	file:
+YYERROR_VERBOSE	autogen_parser.c	101;"	d	file:
+YYERROR_VERBOSE	autogen_parser.c	102;"	d	file:
+YYERROR_VERBOSE	autogen_parser.c	104;"	d	file:
+YYFINAL	autogen_parser.c	382;"	d	file:
+YYFPRINTF	autogen_parser.c	593;"	d	file:
+YYFREE	autogen_parser.c	311;"	d	file:
+YYINITDEPTH	autogen_parser.c	723;"	d	file:
+YYLAST	autogen_parser.c	384;"	d	file:
+YYMALLOC	autogen_parser.c	305;"	d	file:
+YYMAXDEPTH	autogen_parser.c	734;"	d	file:
+YYMAXUTOK	autogen_parser.c	398;"	d	file:
+YYNNTS	autogen_parser.c	389;"	d	file:
+YYNRULES	autogen_parser.c	391;"	d	file:
+YYNSTATES	autogen_parser.c	393;"	d	file:
+YYNTOKENS	autogen_parser.c	387;"	d	file:
+YYPACT_NINF	autogen_parser.c	468;"	d	file:
+YYPOPSTACK	autogen_parser.c	1331;"	d	file:
+YYPULL	autogen_parser.c	59;"	d	file:
+YYPURE	autogen_parser.c	53;"	d	file:
+YYPUSH	autogen_parser.c	56;"	d	file:
+YYRECOVERING	autogen_parser.c	562;"	d	file:
+YYSIZE_MAXIMUM	autogen_parser.c	208;"	d	file:
+YYSIZE_T	autogen_parser.c	197;"	d	file:
+YYSIZE_T	autogen_parser.c	199;"	d	file:
+YYSIZE_T	autogen_parser.c	202;"	d	file:
+YYSIZE_T	autogen_parser.c	204;"	d	file:
+YYSKELETON_NAME	autogen_parser.c	50;"	d	file:
+YYSTACK_ALLOC	autogen_parser.c	291;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	autogen_parser.c	288;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	autogen_parser.c	294;"	d	file:
+YYSTACK_BYTES	autogen_parser.c	337;"	d	file:
+YYSTACK_FREE	autogen_parser.c	282;"	d	file:
+YYSTACK_FREE	autogen_parser.c	292;"	d	file:
+YYSTACK_GAP_MAXIMUM	autogen_parser.c	333;"	d	file:
+YYSTACK_RELOCATE	autogen_parser.c	348;"	d	file:
+YYSTATE	autogen_lexer.c	150;"	d	file:
+YYSTYPE	autogen_parser.c	/^typedef union YYSTYPE YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	autogen_parser.c	/^union YYSTYPE$/;"	u	file:
+YYSTYPE	autogen_parser.h	/^typedef union YYSTYPE YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE	autogen_parser.h	/^union YYSTYPE$/;"	u
+YYSTYPE_IS_DECLARED	autogen_parser.c	151;"	d	file:
+YYSTYPE_IS_DECLARED	autogen_parser.h	75;"	d
+YYSTYPE_IS_TRIVIAL	autogen_parser.c	150;"	d	file:
+YYSTYPE_IS_TRIVIAL	autogen_parser.h	74;"	d
+YYTABLES_NAME	autogen_lexer.c	2246;"	d	file:
+YYTABLE_NINF	autogen_parser.c	473;"	d	file:
+YYTERROR	autogen_parser.c	583;"	d	file:
+YYTOKENTYPE	autogen_parser.c	121;"	d	file:
+YYTOKENTYPE	autogen_parser.h	45;"	d
+YYTRANSLATE	autogen_parser.c	400;"	d	file:
+YYUNDEFTOK	autogen_parser.c	397;"	d	file:
+YYUSE	autogen_parser.c	251;"	d	file:
+YYUSE	autogen_parser.c	253;"	d	file:
+YY_	autogen_parser.c	214;"	d	file:
+YY_	autogen_parser.c	218;"	d	file:
+YY_ATTRIBUTE	autogen_parser.c	226;"	d	file:
+YY_ATTRIBUTE	autogen_parser.c	228;"	d	file:
+YY_ATTRIBUTE_PURE	autogen_parser.c	233;"	d	file:
+YY_ATTRIBUTE_UNUSED	autogen_parser.c	237;"	d	file:
+YY_AT_BOL	autogen_lexer.c	334;"	d	file:
+YY_BREAK	autogen_lexer.c	815;"	d	file:
+YY_BUFFER_EOF_PENDING	autogen_lexer.c	270;"	d	file:
+YY_BUFFER_NEW	autogen_lexer.c	258;"	d	file:
+YY_BUFFER_NORMAL	autogen_lexer.c	259;"	d	file:
+YY_BUFFER_STATE	autogen_lexer.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	autogen_lexer.c	167;"	d	file:
+YY_BUF_SIZE	autogen_lexer.c	169;"	d	file:
+YY_CHAR	autogen_lexer.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	autogen_lexer.c	281;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	autogen_lexer.c	288;"	d	file:
+YY_DECL	autogen_lexer.c	802;"	d	file:
+YY_DECL_IS_OURS	autogen_lexer.c	797;"	d	file:
+YY_DO_BEFORE_ACTION	autogen_lexer.c	358;"	d	file:
+YY_END_OF_BUFFER	autogen_lexer.c	366;"	d	file:
+YY_END_OF_BUFFER_CHAR	autogen_lexer.c	158;"	d	file:
+YY_EXIT_FAILURE	autogen_lexer.c	1877;"	d	file:
+YY_EXTRA_TYPE	autogen_lexer.c	592;"	d	file:
+YY_FATAL_ERROR	autogen_lexer.c	788;"	d	file:
+YY_FLEX_MAJOR_VERSION	autogen_lexer.c	10;"	d	file:
+YY_FLEX_MINOR_VERSION	autogen_lexer.c	11;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	autogen_lexer.c	12;"	d	file:
+YY_FLUSH_BUFFER	autogen_lexer.c	302;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	autogen_parser.c	258;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	autogen_parser.c	268;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	autogen_parser.c	262;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	autogen_parser.c	269;"	d	file:
+YY_INITIAL_VALUE	autogen_parser.c	265;"	d	file:
+YY_INITIAL_VALUE	autogen_parser.c	272;"	d	file:
+YY_INPUT	autogen_lexer.c	741;"	d	file:
+YY_INT_ALIGNED	autogen_lexer.c	5;"	d	file:
+YY_LAC_DISCARD	autogen_parser.c	853;"	d	file:
+YY_LAC_DISCARD	autogen_parser.c	864;"	d	file:
+YY_LAC_ESTABLISH	autogen_parser.c	822;"	d	file:
+YY_LESS_LINENO	autogen_lexer.c	191;"	d	file:
+YY_LINENO_REWIND_TO	autogen_lexer.c	192;"	d	file:
+YY_LOCATION_PRINT	autogen_parser.c	604;"	d	file:
+YY_MORE_ADJ	autogen_lexer.c	545;"	d	file:
+YY_NEW_FILE	autogen_lexer.c	156;"	d	file:
+YY_NULL	autogen_lexer.c	113;"	d	file:
+YY_NULLPTR	autogen_parser.c	93;"	d	file:
+YY_NULLPTR	autogen_parser.c	95;"	d	file:
+YY_NUM_RULES	autogen_lexer.c	365;"	d	file:
+YY_READ_BUF_SIZE	autogen_lexer.c	723;"	d	file:
+YY_READ_BUF_SIZE	autogen_lexer.c	725;"	d	file:
+YY_REDUCE_PRINT	autogen_parser.c	704;"	d	file:
+YY_REDUCE_PRINT	autogen_parser.c	717;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	autogen_lexer.c	546;"	d	file:
+YY_RULE_SETUP	autogen_lexer.c	818;"	d	file:
+YY_SC_TO_UI	autogen_lexer.c	120;"	d	file:
+YY_SKIP_YYWRAP	autogen_lexer.c	339;"	d	file:
+YY_STACK_PRINT	autogen_parser.c	673;"	d	file:
+YY_STACK_PRINT	autogen_parser.c	716;"	d	file:
+YY_START	autogen_lexer.c	149;"	d	file:
+YY_START_STACK_INCR	autogen_lexer.c	783;"	d	file:
+YY_STATE_BUF_SIZE	autogen_lexer.c	175;"	d	file:
+YY_STATE_EOF	autogen_lexer.c	153;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	autogen_lexer.c	211;"	d	file:
+YY_SYMBOL_PRINT	autogen_parser.c	608;"	d	file:
+YY_SYMBOL_PRINT	autogen_parser.c	715;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	autogen_lexer.c	178;"	d	file:
+YY_TYPEDEF_YY_SCANNER_T	autogen_lexer.c	124;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	autogen_lexer.c	183;"	d	file:
+YY_USER_ACTION	autogen_lexer.c	810;"	d	file:
+YY_USE_CONST	autogen_lexer.c	101;"	d	file:
+YY_USE_CONST	autogen_lexer.c	94;"	d	file:
+YY_YY_AUTOGEN_PARSER_H_INCLUDED	autogen_parser.c	110;"	d	file:
+YY_YY_AUTOGEN_PARSER_H_INCLUDED	autogen_parser.h	34;"	d
+_Noreturn	autogen_parser.c	243;"	d	file:
+_Noreturn	autogen_parser.c	245;"	d	file:
+__STDC_LIMIT_MACROS	autogen_lexer.c	40;"	d	file:
+are_redirections_ok	ast.h	/^	int (*are_redirections_ok)(const struct node * const this, int ok_in_redir, int ok_out_redir);$/;"	m	struct:node
+args	ast.c	/^	char **args; \/* as usual, args[0] = executable name *\/$/;"	m	struct:ext_cmd_impl	file:
+capacity	var_table.c	/^	size_t capacity;$/;"	m	struct:var_table	file:
+cd_destroy	ast.c	/^void cd_destroy(struct node * const this)$/;"	f
+cd_dump_to_stdout	ast.c	/^void cd_dump_to_stdout(const struct node * const this)$/;"	f
+cd_execute	ast.c	/^enum next_action cd_execute(const struct node * const this, struct shell * const sh, int in_redir, int out_redir)$/;"	f
+cd_impl	ast.c	/^struct cd_impl {$/;"	s	file:
+chars	str.c	/^	char *chars;$/;"	m	struct:str	file:
+destroy	ast.h	/^	void (*destroy)(struct node * const this);$/;"	m	struct:node
+dump_to_stdout	ast.h	/^	void (*dump_to_stdout)(const struct node * const this);$/;"	m	struct:node
+environment	shell.c	/^	char **environment;$/;"	m	struct:shell	file:
+execute	ast.h	/^	enum next_action (*execute)(const struct node * const this, struct shell * const sh, int in_redir, int out_redir);$/;"	m	struct:node	typeref:enum:node::execute
+ext_cmd_add_arg	ast.c	/^void ext_cmd_add_arg(struct node *this, char *arg)$/;"	f
+ext_cmd_are_redirections_ok	ast.c	/^int ext_cmd_are_redirections_ok(const struct node * const this, int ok_in_redir, int ok_out_redir)$/;"	f
+ext_cmd_destroy	ast.c	/^void ext_cmd_destroy(struct node * const this)$/;"	f
+ext_cmd_dump_to_stdout	ast.c	/^void ext_cmd_dump_to_stdout(const struct node * const this)$/;"	f
+ext_cmd_execute	ast.c	/^enum next_action ext_cmd_execute(const struct node * const this, struct shell * const sh, int in_redir, int out_redir)$/;"	f
+ext_cmd_impl	ast.c	/^struct ext_cmd_impl {$/;"	s	file:
+ext_cmd_set_input_redirection	ast.c	/^void ext_cmd_set_input_redirection(struct node * const this, char * const name)$/;"	f
+ext_cmd_set_output_redirection	ast.c	/^void ext_cmd_set_output_redirection(struct node * const this, char * const name)$/;"	f
+fail_errno	utils.c	/^void fail_errno(const char * const msg)$/;"	f
+find_in_path	ast.c	/^char *find_in_path(const char *path, const char *name)$/;"	f
+flex_int16_t	autogen_lexer.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	autogen_lexer.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	autogen_lexer.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	autogen_lexer.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	autogen_lexer.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	autogen_lexer.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	autogen_lexer.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	autogen_lexer.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	autogen_lexer.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	autogen_lexer.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	autogen_lexer.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	autogen_lexer.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+free_envp	shell.c	/^static void free_envp(char **envp)$/;"	f	file:
+impl	ast.h	/^	void *impl;$/;"	m	struct:node
+in_redirection	ast.c	/^	char *in_redirection; \/* NULL when no redirection asked *\/$/;"	m	struct:ext_cmd_impl	file:
+inject_environment_into_vartable	bmm.c	/^void inject_environment_into_vartable(struct var_table *vt)$/;"	f
+left_cmd	ast.c	/^	struct node *left_cmd;$/;"	m	struct:pipe_impl	typeref:struct:pipe_impl::node	file:
+len	str.c	/^	size_t len;$/;"	m	struct:str	file:
+len	var_table.c	/^	size_t len;$/;"	m	struct:var_table	file:
+lexer_loop	autogen_lexer.c	/^void lexer_loop(struct shell *sh)$/;"	f
+main	bmm.c	/^int main()$/;"	f
+make_sure_HOME_is_set	bmm.c	/^void make_sure_HOME_is_set(struct var_table *vt)$/;"	f
+make_sure_PATH_is_set	bmm.c	/^void make_sure_PATH_is_set(struct var_table *vt)$/;"	f
+make_sure_PWD_is_set	bmm.c	/^void make_sure_PWD_is_set(struct var_table *vt)$/;"	f
+my_malloc	utils.c	/^void *my_malloc(size_t size)$/;"	f
+my_realloc	utils.c	/^void *my_realloc(void *ptr, size_t size)$/;"	f
+my_strdup	utils.c	/^char *my_strdup(const char * const s) {$/;"	f
+n_args	ast.c	/^	size_t n_args;$/;"	m	struct:ext_cmd_impl	file:
+name	ast.c	/^	char *name;$/;"	m	struct:set_impl	file:
+name	var_table.c	/^	char *name;$/;"	m	struct:var	file:
+name_to_str_aux	autogen_lexer.c	/^struct name_to_str_aux {$/;"	s	file:
+new_node_cd	ast.c	/^struct node *new_node_cd(char *const pathname)$/;"	f
+new_node_empty	ast.c	/^static struct node *new_node_empty()$/;"	f	file:
+new_node_ext_cmd	ast.c	/^struct node *new_node_ext_cmd(char *exec_name)$/;"	f
+new_node_pipe	ast.c	/^struct node *new_node_pipe(struct node * const left_cmd, struct node * const right_cmd) {$/;"	f
+new_node_quit	ast.c	/^struct node *new_node_quit()$/;"	f
+new_node_set	ast.c	/^struct node *new_node_set(char *name, char *value)$/;"	f
+new_node_show_variables	ast.c	/^struct node *new_node_show_variables()$/;"	f
+next_action	ast.h	/^enum next_action {$/;"	g
+node	ast.h	/^struct node {$/;"	s
+node	autogen_parser.c	/^	struct node *node;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::node	file:
+node	autogen_parser.h	/^	struct node *node;$/;"	m	union:YYSTYPE	typeref:struct:YYSTYPE::node
+node_destroy	ast.c	/^static void node_destroy(struct node * const this)$/;"	f	file:
+nothing_to_check	ast.c	/^int nothing_to_check(const struct node * const this, int ok_in_redir, int ok_out_redir)$/;"	f
+out_redirection	ast.c	/^	char *out_redirection; \/* NULL when no redirection asked *\/$/;"	m	struct:ext_cmd_impl	file:
+pathname	ast.c	/^	char *pathname;$/;"	m	struct:cd_impl	file:
+pipe_are_redirections_ok	ast.c	/^int pipe_are_redirections_ok(const struct node * const this, int ok_in_redir, int ok_out_redir)$/;"	f
+pipe_destroy	ast.c	/^void pipe_destroy(struct node * const this)$/;"	f
+pipe_dump_to_stdout	ast.c	/^void pipe_dump_to_stdout(const struct node * const this)$/;"	f
+pipe_execute	ast.c	/^enum next_action pipe_execute(const struct node * const this, struct shell * const sh, int in_redir, int out_redir)$/;"	f
+pipe_impl	ast.c	/^struct pipe_impl {$/;"	s	file:
+quit_dump_to_stdout	ast.c	/^void quit_dump_to_stdout(const struct node * const this)$/;"	f
+quit_execute	ast.c	/^enum next_action quit_execute(const struct node * const this, struct shell * const sh, int in_redir, int out_redir) {$/;"	f
+redirect_fd	ast.c	/^void redirect_fd(int from_fd, int to_fd)$/;"	f
+right_cmd	ast.c	/^	struct node *right_cmd;$/;"	m	struct:pipe_impl	typeref:struct:pipe_impl::node	file:
+set_destroy	ast.c	/^void set_destroy(struct node * const this)$/;"	f
+set_dump_to_stdout	ast.c	/^void set_dump_to_stdout(const struct node * const this)$/;"	f
+set_execute	ast.c	/^enum next_action set_execute(const struct node * const this, struct shell * const sh, int in_redir, int out_redir)$/;"	f
+set_impl	ast.c	/^struct set_impl {$/;"	s	file:
+sh_build_environment	shell.c	/^void sh_build_environment(struct shell *this) {$/;"	f
+sh_destroy	shell.c	/^void sh_destroy(struct shell * const this)$/;"	f
+sh_execute	shell.c	/^enum next_action sh_execute(struct shell * const this, const struct node * const cmd) {$/;"	f
+sh_get_environment	shell.c	/^char **sh_get_environment(const struct shell * const this)$/;"	f
+sh_get_prompt	shell.c	/^const char *sh_get_prompt(const struct shell * const this)$/;"	f
+sh_get_var_table	shell.c	/^struct var_table *sh_get_var_table(const struct shell * const this) {$/;"	f
+sh_new	shell.c	/^struct shell *sh_new()$/;"	f
+shell	shell.c	/^struct shell {$/;"	s	file:
+short	autogen_parser.c	168;"	d	file:
+show_variables_dump_to_stdout	ast.c	/^void show_variables_dump_to_stdout(const struct node * const this)$/;"	f
+show_variables_execute	ast.c	/^enum next_action show_variables_execute(const struct node * const this, struct shell *const sh, int in_redir, int out_redir)$/;"	f
+str	autogen_lexer.c	/^	struct str *str;$/;"	m	struct:name_to_str_aux	typeref:struct:name_to_str_aux::str	file:
+str	autogen_parser.c	/^	char *str;$/;"	m	union:YYSTYPE	file:
+str	autogen_parser.h	/^	char *str;$/;"	m	union:YYSTYPE
+str	str.c	/^struct str {$/;"	s	file:
+str_append	str.c	/^void str_append(struct str *this, const char *chars)$/;"	f
+str_destroy	str.c	/^void str_destroy(struct str *this)$/;"	f
+str_destroy_stealing_chars	str.c	/^char *str_destroy_stealing_chars(struct str *this)$/;"	f
+str_new	str.c	/^struct str *str_new()$/;"	f
+unput	autogen_lexer.c	208;"	d	file:
+value	ast.c	/^	char *value;$/;"	m	struct:set_impl	file:
+value	var_table.c	/^	char *value;$/;"	m	struct:var	file:
+var	var_table.c	/^struct var {$/;"	s	file:
+var_table	var_table.c	/^struct var_table {$/;"	s	file:
+vars	shell.c	/^	struct var_table *vars;$/;"	m	struct:shell	typeref:struct:shell::var_table	file:
+vars	var_table.c	/^	struct var *vars;$/;"	m	struct:var_table	typeref:struct:var_table::var	file:
+vt	autogen_lexer.c	/^	const struct var_table *vt;$/;"	m	struct:name_to_str_aux	typeref:struct:name_to_str_aux::var_table	file:
+vt_destroy	var_table.c	/^void vt_destroy(struct var_table *this)$/;"	f
+vt_dump_to_stdout	var_table.c	/^void vt_dump_to_stdout(const struct var_table *const this)$/;"	f
+vt_find_var	var_table.c	/^static struct var *vt_find_var(const struct var_table * const this, const char *const name)$/;"	f	file:
+vt_lookup	var_table.c	/^const char *vt_lookup(const struct var_table * const this, const char *const name)$/;"	f
+vt_name_to_string	autogen_lexer.c	/^char *vt_name_to_string(const struct var_table * const vt, const char *const name)$/;"	f
+vt_new	var_table.c	/^struct var_table *vt_new()$/;"	f
+vt_set_value	var_table.c	/^void vt_set_value(struct var_table * const this, const char * const name, const char * const value)$/;"	f
+vt_to_envp	var_table.c	/^char **vt_to_envp(const struct var_table * const this) {$/;"	f
+wait_for_termination_of_children	shell.c	/^void wait_for_termination_of_children()$/;"	f
+yy_accept	autogen_lexer.c	/^static yyconst flex_int16_t yy_accept[78] =$/;"	v	file:
+yy_at_bol	autogen_lexer.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	autogen_lexer.c	/^static yyconst flex_uint16_t yy_base[99] =$/;"	v	file:
+yy_bs_column	autogen_lexer.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	autogen_lexer.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	autogen_lexer.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	autogen_lexer.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	autogen_lexer.c	/^    YY_BUFFER_STATE * yy_buffer_stack; \/**< Stack as an array. *\/$/;"	m	struct:yyguts_t	file:
+yy_buffer_stack_max	autogen_lexer.c	/^    size_t yy_buffer_stack_max; \/**< capacity of stack. *\/$/;"	m	struct:yyguts_t	file:
+yy_buffer_stack_top	autogen_lexer.c	/^    size_t yy_buffer_stack_top; \/**< index of top of stack. *\/$/;"	m	struct:yyguts_t	file:
+yy_buffer_state	autogen_lexer.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	autogen_lexer.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	autogen_lexer.c	/^    char *yy_c_buf_p;$/;"	m	struct:yyguts_t	file:
+yy_ch_buf	autogen_lexer.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	autogen_lexer.c	/^static yyconst flex_int16_t yy_chk[349] =$/;"	v	file:
+yy_create_buffer	autogen_lexer.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size , yyscan_t yyscanner)$/;"	f
+yy_def	autogen_lexer.c	/^static yyconst flex_int16_t yy_def[99] =$/;"	v	file:
+yy_delete_buffer	autogen_lexer.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b , yyscan_t yyscanner)$/;"	f
+yy_did_buffer_switch_on_eof	autogen_lexer.c	/^    int yy_did_buffer_switch_on_eof;$/;"	m	struct:yyguts_t	file:
+yy_ec	autogen_lexer.c	/^static yyconst YY_CHAR yy_ec[256] =$/;"	v	file:
+yy_fatal_error	autogen_lexer.c	/^static void yy_fatal_error (yyconst char* msg , yyscan_t yyscanner)$/;"	f	file:
+yy_fill_buffer	autogen_lexer.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	autogen_lexer.c	137;"	d	file:
+yy_flex_debug_r	autogen_lexer.c	/^    int yy_flex_debug_r;$/;"	m	struct:yyguts_t	file:
+yy_flex_strlen	autogen_lexer.c	/^static int yy_flex_strlen (yyconst char * s , yyscan_t yyscanner)$/;"	f	file:
+yy_flex_strncpy	autogen_lexer.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n , yyscan_t yyscanner)$/;"	f	file:
+yy_flush_buffer	autogen_lexer.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b , yyscan_t yyscanner)$/;"	f
+yy_get_next_buffer	autogen_lexer.c	/^static int yy_get_next_buffer (yyscan_t yyscanner)$/;"	f	file:
+yy_get_previous_state	autogen_lexer.c	/^    static yy_state_type yy_get_previous_state (yyscan_t yyscanner)$/;"	f	file:
+yy_hold_char	autogen_lexer.c	/^    char yy_hold_char;$/;"	m	struct:yyguts_t	file:
+yy_init	autogen_lexer.c	/^    int yy_init;$/;"	m	struct:yyguts_t	file:
+yy_init_buffer	autogen_lexer.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file , yyscan_t yyscanner)$/;"	f	file:
+yy_init_globals	autogen_lexer.c	/^static int yy_init_globals (yyscan_t yyscanner)$/;"	f	file:
+yy_input_file	autogen_lexer.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	autogen_lexer.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	autogen_lexer.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_lac	autogen_parser.c	/^yy_lac (yytype_int16 *yyesa, yytype_int16 **yyes,$/;"	f	file:
+yy_lac_stack_realloc	autogen_parser.c	/^yy_lac_stack_realloc (YYSIZE_T *yycapacity, YYSIZE_T yyadd,$/;"	f	file:
+yy_last_accepting_cpos	autogen_lexer.c	/^    char* yy_last_accepting_cpos;$/;"	m	struct:yyguts_t	file:
+yy_last_accepting_state	autogen_lexer.c	/^    yy_state_type yy_last_accepting_state;$/;"	m	struct:yyguts_t	file:
+yy_load_buffer_state	autogen_lexer.c	/^static void yy_load_buffer_state  (yyscan_t yyscanner)$/;"	f	file:
+yy_meta	autogen_lexer.c	/^static yyconst YY_CHAR yy_meta[33] =$/;"	v	file:
+yy_more_flag	autogen_lexer.c	/^    int yy_more_flag;$/;"	m	struct:yyguts_t	file:
+yy_more_len	autogen_lexer.c	/^    int yy_more_len;$/;"	m	struct:yyguts_t	file:
+yy_n_chars	autogen_lexer.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	autogen_lexer.c	/^    int yy_n_chars;$/;"	m	struct:yyguts_t	file:
+yy_new_buffer	autogen_lexer.c	312;"	d	file:
+yy_nxt	autogen_lexer.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	autogen_lexer.c	/^static yyconst flex_uint16_t yy_nxt[349] =$/;"	v	file:
+yy_pop_state	autogen_lexer.c	/^    static void yy_pop_state  (yyscan_t yyscanner)$/;"	f	file:
+yy_push_state	autogen_lexer.c	/^    static void yy_push_state (int  _new_state , yyscan_t yyscanner)$/;"	f	file:
+yy_reduce_print	autogen_parser.c	/^yy_reduce_print (yytype_int16 *yyssp, YYSTYPE *yyvsp, int yyrule, void *scanner, struct shell *sh, struct node **cmd)$/;"	f	file:
+yy_scan_buffer	autogen_lexer.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size , yyscan_t yyscanner)$/;"	f
+yy_scan_bytes	autogen_lexer.c	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yybytes, yy_size_t  _yybytes_len , yyscan_t yyscanner)$/;"	f
+yy_scan_string	autogen_lexer.c	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yystr , yyscan_t yyscanner)$/;"	f
+yy_set_bol	autogen_lexer.c	324;"	d	file:
+yy_set_interactive	autogen_lexer.c	314;"	d	file:
+yy_size_t	autogen_lexer.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	autogen_parser.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_start	autogen_lexer.c	/^    int yy_start;$/;"	m	struct:yyguts_t	file:
+yy_start_stack	autogen_lexer.c	/^    int *yy_start_stack;$/;"	m	struct:yyguts_t	file:
+yy_start_stack_depth	autogen_lexer.c	/^    int yy_start_stack_depth;$/;"	m	struct:yyguts_t	file:
+yy_start_stack_ptr	autogen_lexer.c	/^    int yy_start_stack_ptr;$/;"	m	struct:yyguts_t	file:
+yy_state_type	autogen_lexer.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	autogen_lexer.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer , yyscan_t yyscanner)$/;"	f
+yy_symbol_print	autogen_parser.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep, void *scanner, struct shell *sh, struct node **cmd)$/;"	f	file:
+yy_symbol_value_print	autogen_parser.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep, void *scanner, struct shell *sh, struct node **cmd)$/;"	f	file:
+yy_top_state	autogen_lexer.c	/^    static int yy_top_state  (yyscan_t yyscanner)$/;"	f	file:
+yy_trans_info	autogen_lexer.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	autogen_lexer.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state , yyscan_t yyscanner)$/;"	f	file:
+yy_verify	autogen_lexer.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	autogen_lexer.c	/^void *yyalloc (yy_size_t  size , yyscan_t yyscanner)$/;"	f
+yyalloc	autogen_parser.c	/^union yyalloc$/;"	u	file:
+yycheck	autogen_parser.c	/^static const yytype_int8 yycheck[] =$/;"	v	file:
+yyclearin	autogen_parser.c	553;"	d	file:
+yycolumn	autogen_lexer.c	136;"	d	file:
+yyconst	autogen_lexer.c	107;"	d	file:
+yyconst	autogen_lexer.c	109;"	d	file:
+yydebug	autogen_parser.c	/^int yydebug;$/;"	v
+yydefact	autogen_parser.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	autogen_parser.c	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydestruct	autogen_parser.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep, void *scanner, struct shell *sh, struct node **cmd)$/;"	f	file:
+yyensure_buffer_stack	autogen_lexer.c	/^static void yyensure_buffer_stack (yyscan_t yyscanner)$/;"	f	file:
+yyerrok	autogen_parser.c	552;"	d	file:
+yyerror	utils.c	/^void yyerror(void *scanner, const struct shell * const sh, struct node ** const cmd, char const * const msg)$/;"	f
+yyextra	autogen_lexer.c	132;"	d	file:
+yyextra_r	autogen_lexer.c	/^    YY_EXTRA_TYPE yyextra_r;$/;"	m	struct:yyguts_t	file:
+yyfree	autogen_lexer.c	/^void yyfree (void * ptr , yyscan_t yyscanner)$/;"	f
+yyget_column	autogen_lexer.c	/^int yyget_column  (yyscan_t yyscanner)$/;"	f
+yyget_debug	autogen_lexer.c	/^int yyget_debug  (yyscan_t yyscanner)$/;"	f
+yyget_extra	autogen_lexer.c	/^YY_EXTRA_TYPE yyget_extra  (yyscan_t yyscanner)$/;"	f
+yyget_in	autogen_lexer.c	/^FILE *yyget_in  (yyscan_t yyscanner)$/;"	f
+yyget_leng	autogen_lexer.c	/^yy_size_t yyget_leng  (yyscan_t yyscanner)$/;"	f
+yyget_lineno	autogen_lexer.c	/^int yyget_lineno  (yyscan_t yyscanner)$/;"	f
+yyget_lval	autogen_lexer.c	/^YYSTYPE * yyget_lval  (yyscan_t yyscanner)$/;"	f
+yyget_out	autogen_lexer.c	/^FILE *yyget_out  (yyscan_t yyscanner)$/;"	f
+yyget_text	autogen_lexer.c	/^char *yyget_text  (yyscan_t yyscanner)$/;"	f
+yyguts_t	autogen_lexer.c	/^struct yyguts_t$/;"	s	file:
+yyin	autogen_lexer.c	130;"	d	file:
+yyin_r	autogen_lexer.c	/^    FILE *yyin_r, *yyout_r;$/;"	m	struct:yyguts_t	file:
+yyinput	autogen_lexer.c	/^    static int yyinput (yyscan_t yyscanner)$/;"	f	file:
+yyleng	autogen_lexer.c	133;"	d	file:
+yyleng_r	autogen_lexer.c	/^    yy_size_t yyleng_r;$/;"	m	struct:yyguts_t	file:
+yyless	autogen_lexer.c	1890;"	d	file:
+yyless	autogen_lexer.c	1891;"	d	file:
+yyless	autogen_lexer.c	195;"	d	file:
+yylex_destroy	autogen_lexer.c	/^int yylex_destroy  (yyscan_t yyscanner)$/;"	f
+yylex_init	autogen_lexer.c	/^int yylex_init(yyscan_t* ptr_yy_globals)$/;"	f
+yylex_init_extra	autogen_lexer.c	/^int yylex_init_extra(YY_EXTRA_TYPE yy_user_defined,yyscan_t* ptr_yy_globals )$/;"	f
+yylineno	autogen_lexer.c	135;"	d	file:
+yylineno_r	autogen_lexer.c	/^    int yylineno_r;$/;"	m	struct:yyguts_t	file:
+yylval	autogen_lexer.c	634;"	d	file:
+yylval_r	autogen_lexer.c	/^    YYSTYPE * yylval_r;$/;"	m	struct:yyguts_t	file:
+yymore	autogen_lexer.c	544;"	d	file:
+yyout	autogen_lexer.c	131;"	d	file:
+yyout_r	autogen_lexer.c	/^    FILE *yyin_r, *yyout_r;$/;"	m	struct:yyguts_t	file:
+yypact	autogen_parser.c	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yypact_value_is_default	autogen_parser.c	470;"	d	file:
+yyparse	autogen_parser.c	/^yyparse (void *scanner, struct shell *sh, struct node **cmd)$/;"	f
+yypgoto	autogen_parser.c	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yypop_buffer_state	autogen_lexer.c	/^void yypop_buffer_state (yyscan_t yyscanner)$/;"	f
+yypush_buffer_state	autogen_lexer.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer , yyscan_t yyscanner)$/;"	f
+yyr1	autogen_parser.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	autogen_parser.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrealloc	autogen_lexer.c	/^void *yyrealloc  (void * ptr, yy_size_t  size , yyscan_t yyscanner)$/;"	f
+yyrestart	autogen_lexer.c	/^    void yyrestart  (FILE * input_file , yyscan_t yyscanner)$/;"	f
+yyrline	autogen_parser.c	/^static const yytype_uint8 yyrline[] =$/;"	v	file:
+yyscan_t	autogen_lexer.c	/^typedef void* yyscan_t;$/;"	t	file:
+yyset_column	autogen_lexer.c	/^void yyset_column (int  _column_no , yyscan_t yyscanner)$/;"	f
+yyset_debug	autogen_lexer.c	/^void yyset_debug (int  _bdebug , yyscan_t yyscanner)$/;"	f
+yyset_extra	autogen_lexer.c	/^void yyset_extra (YY_EXTRA_TYPE  user_defined , yyscan_t yyscanner)$/;"	f
+yyset_in	autogen_lexer.c	/^void yyset_in (FILE *  _in_str , yyscan_t yyscanner)$/;"	f
+yyset_lineno	autogen_lexer.c	/^void yyset_lineno (int  _line_number , yyscan_t yyscanner)$/;"	f
+yyset_lval	autogen_lexer.c	/^void yyset_lval (YYSTYPE *  yylval_param , yyscan_t yyscanner)$/;"	f
+yyset_out	autogen_lexer.c	/^void yyset_out (FILE *  _out_str , yyscan_t yyscanner)$/;"	f
+yyss_alloc	autogen_parser.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	autogen_parser.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	autogen_parser.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	autogen_parser.c	991;"	d	file:
+yystrlen	autogen_parser.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	autogen_parser.c	975;"	d	file:
+yysyntax_error	autogen_parser.c	/^yysyntax_error (YYSIZE_T *yymsg_alloc, char **yymsg,$/;"	f	file:
+yytable	autogen_parser.c	/^static const yytype_uint8 yytable[] =$/;"	v	file:
+yytable_value_is_error	autogen_parser.c	475;"	d	file:
+yyterminate	autogen_lexer.c	778;"	d	file:
+yytext	autogen_lexer.c	134;"	d	file:
+yytext_ptr	autogen_lexer.c	345;"	d	file:
+yytext_r	autogen_lexer.c	/^    char *yytext_r;$/;"	m	struct:yyguts_t	file:
+yytname	autogen_parser.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	autogen_parser.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	autogen_parser.c	/^  enum yytokentype$/;"	g	file:
+yytokentype	autogen_parser.h	/^  enum yytokentype$/;"	g
+yytoknum	autogen_parser.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	autogen_parser.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	autogen_parser.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	autogen_parser.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	autogen_parser.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	autogen_parser.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	autogen_parser.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	autogen_parser.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	autogen_parser.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	autogen_parser.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	autogen_lexer.c	/^    static void yyunput (int c, char * yy_bp , yyscan_t yyscanner)$/;"	f	file:
+yyvs_alloc	autogen_parser.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
+yywrap	autogen_lexer.c	338;"	d	file:
